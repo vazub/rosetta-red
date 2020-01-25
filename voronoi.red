@@ -2,7 +2,7 @@ Red [
 	Title:      "Voronoi diagram"
 	Link:       http://rosettacode.org/wiki/Voronoi_diagram
 	Source:     https://github.com/vazub/rosetta-red
-	File:		"%voronoi.red"
+	File:       "%voronoi.red"
 	Rights:     "Copyright (C) 2020 Vasyl Zubko. All rights reserved."
 	License:    "Blue Oak Model License - https://blueoakcouncil.org/license/1.0.0"
 	Tabs:       4

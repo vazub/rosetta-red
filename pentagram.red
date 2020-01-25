@@ -6,7 +6,7 @@ Red [
 	Rights:     "Copyright (C) 2020 Vasyl Zubko. All rights reserved."
 	License:    "Blue Oak Model License - https://blueoakcouncil.org/license/1.0.0"
 	Tabs:       4
-	Need:       'view
+	Needs:       'View
 ]
 
 comment {

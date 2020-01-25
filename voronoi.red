@@ -1,16 +1,16 @@
 Red [
-    Title:      "Voronoi diagram"
-    Link:       http://rosettacode.org/wiki/Voronoi_diagram
-    Source:     https://github.com/vazub/rosetta-red
-    File:		"%voronoi.red"
-    Rights:     "Copyright (C) 2020 Vasyl Zubko. All rights reserved."
-    License:    "Blue Oak Model License - https://blueoakcouncil.org/license/1.0.0"
-    Tabs:       4
-    Need:       'view
+	Title:      "Voronoi diagram"
+	Link:       http://rosettacode.org/wiki/Voronoi_diagram
+	Source:     https://github.com/vazub/rosetta-red
+	File:		"%voronoi.red"
+	Rights:     "Copyright (C) 2020 Vasyl Zubko. All rights reserved."
+	License:    "Blue Oak Model License - https://blueoakcouncil.org/license/1.0.0"
+	Tabs:       4
+	Need:       'view
 ]
 
 comment {
-	This is a naive and therefore inefficient approach. For production-related tasks, 
+	This is a naive and therefore inefficient approach. For production-related tasks,
 	a proper full implementation of Fortune's algorithm should be preferred.
 }
 
@@ -47,10 +47,10 @@ repeat y canvas/y [
 		foreach [point color] points [
 			d: distance point coord
 			if d/1 < min-dist/1 [min-dist/1: d/1 color-l1: color]
-			if d/2 < min-dist/2 [min-dist/2: d/2 color-l2: color] 
+			if d/2 < min-dist/2 [min-dist/2: d/2 color-l2: color]
 		]
 		poke diagram-l1 coord color-l1
-		poke diagram-l2 coord color-l2        
+		poke diagram-l2 coord color-l2
 	]
 ]
 

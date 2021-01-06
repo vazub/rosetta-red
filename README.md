@@ -1,6 +1,3 @@
-# IMPORTANT: This repo has moved to [Gitlab](https://gitlab.com/vazub/rosetta-red)
----
-
 # Rosetta Code Solutions - Red #
 
 This repository contains some solutions to the [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code) tasks in [Red Programming Language](https://www.red-lang.org/).
